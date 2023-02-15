@@ -6,11 +6,37 @@
   box-sizing: border-box;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
-  color: #8dc63f;
+  color: #000;
 }
 
 li {
   list-style: none;
+}
+
+.head-height {
+  height: 48px;
+}
+.head-height .wt-logo img {
+  cursor: pointer;
+  margin-right: 8px;
+}
+.head-height span {
+  margin-right: 8px;
+}
+.head-height nav ul {
+  margin-bottom: 0px;
+}
+.head-height nav ul li {
+  margin-left: 13px;
+}
+.head-height nav ul li a {
+  font-weight: 400;
+  font-size: 13px;
+  transition: 300ms all linear;
+}
+.head-height nav ul li a:hover {
+  color: #8dc63f;
 }

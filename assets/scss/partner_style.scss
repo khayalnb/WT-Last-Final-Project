@@ -1,24 +1,56 @@
 @import 'main_color';
 @import 'font_family';
 
-@mixin margin-padding-reset{
+@mixin margin-padding-reset {
     margin: 0;
     padding: 0;
 }
 
 *,
 *::after,
-*::before{
+*::before {
     @include margin-padding-reset();
     box-sizing: border-box;
 }
 
-a, a:hover{
+a,
+a:hover {
     text-decoration: none;
-    color:$green;
-    
+    color: $black;
+
 }
 
-li{
+li {
     list-style: none;
+}
+
+.head-height {
+    height: 48px;
+
+    .wt-logo {
+        img {
+            cursor: pointer;
+            margin-right: 8px;
+        }
+    }
+    span{
+        margin-right: 8px;
+    }
+    nav{
+        ul{
+            margin-bottom: 0px;
+            li{
+                margin-left: 13px;
+                a{
+                    font-weight: 400;
+                    font-size: 13px;
+                    transition: 300ms all linear;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+                
+            }
+        }
+    }
 }
