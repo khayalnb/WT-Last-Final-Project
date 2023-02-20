@@ -8,9 +8,36 @@
     <title>World Telecom</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font_family.css">
-    <link rel="stylesheet" href="assets/css/partner_style.css
-    ">
+    <link rel="stylesheet" href="assets/css/partner_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
 
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+     
+
+    
+    </style>
 </head>
 
 <body>
@@ -19,8 +46,8 @@
             <div class="row">
                 <div class="col-md-6 head-height d-flex align-items-center">
                     <a class="wt-logo">
-                       <img src="assets/img/Logo.b9f47734dc8a7d48845278a3459f1134.svg" alt="">
-                       <img src="assets/img/wt.svg" alt="">
+                        <img src="assets/img/Logo.b9f47734dc8a7d48845278a3459f1134.svg" alt="">
+                        <img src="assets/img/wt.svg" alt="">
                     </a>
                     <span>|</span>
                     <a href="tel:*2555"><strong>*2555</strong></a>
@@ -35,14 +62,628 @@
                     </nav>
                 </div>
             </div>
-           
         </div>
+        <div class="nav-bottom">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-8 d-flex align-items-center">
+                        <div class="menu">
+                            <button class="wt-category">
+                                <img src="assets/img/category.svg" alt="">
+                                <span>Kateqoriyalar</span>
+                            </button>
+                            <div class="col-sm-1 category-box">
+                                <div class="category">
+                                    <div class="category-item">
+                                        <div class="category-logo">
+                                            <img src="assets/img/category/phone_tablet.svg" alt="">
+                                        </div>
+                                        <span>Telefonlar və planşetlər</span>
+                                    </div>
+                                    <div class="category-item">
+                                        <div class="category-logo">
+                                            <img src="assets/img/category/phone_tablet.svg" alt="">
+                                        </div>
+                                        <span>Telefonlar və planşetlər</span>
+                                    </div>
+                                    <div class="category-item">
+                                        <div class="category-logo">
+                                            <img src="assets/img/category/phone_tablet.svg" alt="">
+                                        </div>
+                                        <span>Telefonlar və planşetlər</span>
+                                    </div>
+                                    <div class="category-item">
+                                        <div class="category-logo">
+                                            <img src="assets/img/category/phone_tablet.svg" alt="">
+                                        </div>
+                                        <span>Telefonlar və planşetlər</span>
+                                    </div>
+                                    <div class="category-item">
+                                        <div class="category-logo">
+                                            <img src="assets/img/category/phone_tablet.svg" alt="">
+                                        </div>
+                                        <span>Telefonlar və planşetlər</span>
+                                    </div>
+                                    <div class="category-item">
+                                        <div class="category-logo">
+                                            <img src="assets/img/category/phone_tablet.svg" alt="">
+                                        </div>
+                                        <span>Telefonlar və planşetlər</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="search-box d-flex justify-content-between align-items-center">
+                            <input type="text" placeholder="Məhsul axtar...">
+                            <a href="">
+                                <img src="assets/img/loop.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="right-area ps-5  w-100 d-flex align-items-center justify-content-between">
+                            <a class="company-btn" href="">Kampaniyalar</a>
+                            <div class="operation-box d-flex justify-content-end align-items-center">
+                                <div class="operation">
+                                    <img class="person" src="assets/img/person.svg" alt="">
+                                    <div class="login-register">
+                                        <div class="fill">
+                                            <div class="fill-rotate">
+
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            <span>Daha yaxşı təkliflər üçün hesabınıza giriş edin.</span>
+                                        </div>
+                                        <a class="login" href="">Giriş</a>
+                                        <a class="register" href="">Qeydiyyat</a>
+
+                                    </div>
+                                </div>
+                                <div class="operation">
+                                    <img src="assets/img/heart.svg" alt="">
+                                </div>
+                                <div class="operation">
+                                    <span class="basket-count">2</span>
+                                    <img src="assets/img/basket.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
+    <section>
+        <div class="container">
+            <div class="row d-flex justify-content-end">
+                <div class="col-sm-12 mt-2  width-change-box" style="height: 550px;">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/img/slide/0DA3D6FE-7BC4-4675-A877-E32FAF6F45F0.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slide/0DA3D6FE-7BC4-4675-A877-E32FAF6F45F0.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slide/0DA3D6FE-7BC4-4675-A877-E32FAF6F45F0.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slide/0DA3D6FE-7BC4-4675-A877-E32FAF6F45F0.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slide/0DA3D6FE-7BC4-4675-A877-E32FAF6F45F0.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slide/0DA3D6FE-7BC4-4675-A877-E32FAF6F45F0.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5 ">
+        <div class="row d-flex justify-content-end">
+            <div class="col-sm-12 width-change-box">
+                <h4>Ən çox satılanlar</h4>
+            </div>
+        </div>
+        <div class="row justify-content-end mt-4">
+            <div class="col-sm-12 width-change-box">
+                <div class="row ">
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img data-heart-id="1" src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img data-heart-id="1" src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img data-heart-id="1" src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img data-heart-id="1" src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img data-heart-id="1" src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mb-4" data-aos="zoom-in">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div class="d-flex justify-content-end heart-box">
+                                    <img data-heart="1" src="assets/img/heart.svg" alt="">
+                                </div>
+                                <img src="assets/img/apple-14-pro-deep-purple-1-min.jpg" alt="">
+
+                            </div>
+                            <div class="product-color">
+
+                            </div>
+                            <div class="product-info">
+                                <span class="product-category">
+                                    <img data-heart-id="1" src="assets/img/circle.svg" alt="">
+                                    Telefonlar və planşetlər
+                                </span>
+                                <span class="product-name">Apple Iphone 14 Pro Max</span>
+                            </div>
+                            <div class="product-price">
+                                <div class="cash">
+                                    <span class="cash">3199</span>
+                                    <img src="assets/img/valuta.svg" alt="">
+                                </div>
+                                <div class="credit">
+                                    <span class="month">12 ay</span>
+                                    <span class="payment">234.56<img src="assets/img/purpleValuta.svg" alt=""></span>
+                                </div>
+
+                            </div>
+                            <div class="product-sale-basket">
+                                <button>İndi al</button>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/sebet.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
+            },
+            autoplay: {
+                delay: 2500,
+            },
+        });
+
+        AOS.init();
+
+       
+    </script>
 </body>
 
 </html>
