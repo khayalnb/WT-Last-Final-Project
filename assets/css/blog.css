@@ -1,0 +1,14 @@
+.card-settings {
+  transition: 150ms all linear;
+}
+.card-settings a {
+  transition: 150ms all linear;
+  cursor: pointer;
+  color: #8dc63f;
+  width: 200px;
+  display: block;
+}
+.card-settings a:hover img {
+  transition: 150ms all linear;
+  margin-left: 10px;
+}

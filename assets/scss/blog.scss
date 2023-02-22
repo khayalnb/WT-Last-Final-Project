@@ -1,0 +1,17 @@
+@import 'main_color';
+
+.card-settings {
+    transition: 150ms all linear;
+
+    a{
+        transition: 150ms all linear;
+        cursor: pointer;
+        color: $green;
+        width: 200px;
+        display: block;
+        &:hover img {
+            transition: 150ms all linear;
+            margin-left: 10px;
+        }
+    }
+}
