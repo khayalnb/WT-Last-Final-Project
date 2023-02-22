@@ -1,14 +1,65 @@
-.card-settings {
-  transition: 150ms all linear;
+.blog-svg-title {
+  color: #fff;
+  position: absolute;
+  margin: 40px;
 }
-.card-settings a {
-  transition: 150ms all linear;
+
+.blog-card {
+  width: 100%;
+  transition: 250ms all linear;
+}
+.blog-card:hover .blog-image img {
+  transition: 250ms all linear;
+  transform: scale(1.08);
+}
+.blog-card .blog-image {
+  transition: 250ms all linear;
+  width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.blog-card .blog-image img {
+  transition: 250ms all linear;
+  display: inline-block;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.blog-card .blog-body {
+  transition: 250ms all linear;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: 0.5px solid #adadad;
+  border-left: 0.5px solid #adadad;
+  border-right: 0.5px solid #adadad;
+  padding: 10px;
+}
+.blog-card .blog-body span,
+.blog-card .blog-body h6,
+.blog-card .blog-body p, .blog-card .blog-body a {
+  margin-top: 10px;
+}
+.blog-card .blog-body p {
+  color: #adadad;
+  font-weight: 200;
+}
+.blog-card .blog-body .more-info {
+  position: relative;
+  z-index: 5;
+  transition: 250ms all linear;
+  width: -moz-fit-content;
+  width: fit-content;
   cursor: pointer;
-  color: #8dc63f;
-  width: 200px;
-  display: block;
 }
-.card-settings a:hover img {
-  transition: 150ms all linear;
-  margin-left: 10px;
+.blog-card .blog-body .more-info a {
+  color: #8dc63f;
+  cursor: pointer;
+}
+.blog-card .blog-body .more-info img {
+  transition: 250ms all linear;
+}
+.blog-card .blog-body .more-info:hover img {
+  transform: translateX(5px);
 }
