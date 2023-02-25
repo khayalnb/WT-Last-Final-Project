@@ -1,0 +1,84 @@
+@import 'main_color';
+
+
+
+.route {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    a {
+        color: $gray;
+
+        &:last-child {
+            margin-left: 5px;
+        }
+    }
+
+    div {
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        background-color: $gray;
+        margin-left: 5px;
+    }
+
+}
+
+body {
+    background-color: $body-color;
+}
+
+.total-price-box {
+    width: 100%;
+    background-color: $white;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    .total-price , .discount-price {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        span {
+            font-weight: 500;
+            &:first-child{
+                color: $gray;
+                font-size: 12px;
+            }
+            &:last-child{
+                font-size: 14px;
+            }
+        }
+        img{
+            width: 15px;;
+        }
+    }
+    .discount-price{
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid $gray;
+    }
+    .order-complate{
+        background-color: $grey;
+        padding: 15px;
+        border-radius: 2.5px;
+        .total-price{
+            span{
+                color: $white;
+            }
+        }
+        a{
+            color: $white;
+            background-color: $green;
+            border-radius: 2.5px;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            padding: 10px 0px;
+            margin-top: 1rem;
+        }
+
+    }
+
+
+}

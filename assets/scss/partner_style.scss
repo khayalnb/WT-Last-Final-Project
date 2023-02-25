@@ -13,10 +13,6 @@
 *::before {
     @include margin-padding-reset();
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Sans Mono', monospace;
-    font-family: 'Poppins', sans-serif;
-
 }
 
 a,
@@ -287,12 +283,12 @@ header {
 }
 
 .category-box {
-    opacity: 0;
+    display: none;
     transition: 300ms all linear;
 }
 
 .category-box.active {
-    opacity: 1;
+    display: block;
     transition: 300ms all linear;
 
 }
